@@ -23,7 +23,7 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .nowplaying{
     margin-top: 50px;
@@ -54,3 +54,4 @@
 .seek_slider{
     width: 60%;
 }
+
