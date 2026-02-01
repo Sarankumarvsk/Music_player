@@ -1,0 +1,56 @@
+.outline{
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.corners{
+    border-radius: 10px;
+}
+.heading{
+    font-size: 3rem;
+}
+.heightrow{
+    height: 80vh;
+}
+.actualheight{
+    height: 100vh; 
+}
+.buttons{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nowplaying{
+    margin-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+.random-track,
+.prev-track,
+.play-track,
+.next-track,
+.repeat-track{
+    padding: 25px;
+    opacity: 0.8;
+}
+.random-track:hover,
+.prev-track:hover,
+.play-track:hover,
+.next-track:hover,
+.repeat-track:hover{
+    opacity: 1.0;
+}
+.slider_container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.seek_slider{
+    width: 60%;
+}
