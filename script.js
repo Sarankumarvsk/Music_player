@@ -4,11 +4,6 @@ let audio = document.createElement("audio");
 // Track list
 let track_list = [
     {
-        name: "Naan Un",
-        path: "./songs/NaanUn.flac",
-        image: "./images/naanun.jpg"
-    },
-    {
         name: "Matta",
         path: "./songs/Matta.mp3",
         image: "./images/matta.jpg"
@@ -166,3 +161,4 @@ function nextLogic() {
 
 // Load first song
 loadTrack(track_index);
+
